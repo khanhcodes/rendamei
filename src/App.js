@@ -21,6 +21,9 @@ function App() {
     setQuote(await fetchQuote());
   }, []);
   
+  useEffect(() => {
+    document.title = "Rendamei";  
+  }, []);
 
   return (
     <div className="App">
