@@ -28,7 +28,7 @@ function App() {
   return (
     <div className="App">
       <h1 class="shimmer">Rendamei</h1>
-        <h2>Anime Quote Random Generator</h2>
+        <h2>Random Anime Quote Generator</h2>
           <Quote quote={quote}/>
           <button onClick={generate}>Generate new quote</button>
     </div>
