@@ -198,8 +198,6 @@ button:hover {
     padding: 0.55rem 1.25rem;
     max-width: 180px;
   }
-}
-
 h2 {
   font-size: 18px;
 }
@@ -214,6 +212,9 @@ button {
   font-size: 17px;
   font-weight: 600;
 }
+}
+
+
 
 @media screen and (min-width: 420px) and (max-width: 600px) {
   .App {
@@ -238,16 +239,18 @@ button {
     padding: 0.55rem 1.25rem;
     max-width: 180px;
   }
+
+  h2 {
+    font-size: 18px;
+  }
+  
+  button {
+    font-size: 18px;
+  
+  }
 }
 
-h2 {
-  font-size: 18px;
-}
 
-button {
-  font-size: 19px;
-
-}
 
 @media screen and (min-width: 0px) and (max-width: 340px) {
   .App {
@@ -272,14 +275,14 @@ button {
     padding: 0.5rem 1rem;
     max-width: 140px;
   }
+  h2 {
+    font-size: 18px;
+  }
+  
+  button {
+    font-size: 15px;
+  
 }
-
-h2 {
-  font-size: 18px;
-}
-
-button {
-  font-size: 15px;
 
 }
 
@@ -353,6 +356,39 @@ button {
   .shimmer {
     font-size: 40px;
     
+  }
+}
+@media screen and (min-width: 950px) and (max-width: 1200px) {
+  .App {
+    background-image: url("https://free4kwallpapers.com/uploads/originals/2021/05/08/anime-scenery-k-sx-wallpaper.jpg");
+    background-size: 2800px 1430px;
+    background-position: 50% 50%;
+  }
+
+  blockquote {
+    font-family: var(--font-quote);
+    max-width: 780px;
+    font-size: 2.4rem;
+  }
+
+  .anime, .character {
+    font-size: 1.9rem;
+    max-width: 350px;
+  }
+  h2 {
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+  
+  button {
+    font-size: 25px;
+    margin-top: 50px;
+  
+  }
+  
+  .shimmer {
+    font-size: 100px;
   }
 }
 
