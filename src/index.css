@@ -188,8 +188,8 @@ button:hover {
 
   blockquote {
     font-family: var(--font-quote);
-    max-width: 260px;
-    font-size: 1.3rem;
+    max-width: 270px;
+    font-size: 1.1rem;
     padding: 2.0rem;
   }
 
